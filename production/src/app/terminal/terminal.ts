@@ -8,5 +8,7 @@ import { ProductionControl } from '../production-control/production-control';
   styleUrl: './terminal.scss'
 })
 export class Terminal {
-
+  setProductionOrder(){
+    console.log("testeeeee")
+  }
 }

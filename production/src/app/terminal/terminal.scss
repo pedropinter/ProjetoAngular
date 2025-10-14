@@ -33,6 +33,22 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5em;
+    button{
+        width: 49%;
+        height: 92%;
+
+        border-radius: 5px;
+        border: 2px solid;
+        color: white !important;
+    }
+}
+.stop-button{
+    background-color: var(--color-error-dark);
+    border-color: var(--color-error) !important;
+}
+.production-button{
+    background-color: var(--color-sucess-dark);
+    border-color: var(--color-sucess) !important;
 }
 
 .footer {
