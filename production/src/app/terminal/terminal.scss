@@ -33,7 +33,8 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5em;
-    button{
+
+    button {
         width: 49%;
         height: 92%;
 
@@ -42,11 +43,13 @@
         color: white !important;
     }
 }
-.stop-button{
+
+.stop-button {
     background-color: var(--color-error-dark);
     border-color: var(--color-error) !important;
 }
-.production-button{
+
+.production-button {
     background-color: var(--color-sucess-dark);
     border-color: var(--color-sucess) !important;
 }

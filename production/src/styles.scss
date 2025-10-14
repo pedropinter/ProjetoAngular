@@ -32,7 +32,7 @@ html,body{
   --color-yellow: #fcba3f;
 }
 
-.custom-dialog .mat.mdc-dialog-component-host{
+.custom-dialog .mat-mdc-dialog-component-host{
   display: block !important;
-  background-color: var(--color-dark-blue-1000);
+  background-color: var(--color-dark-blue-1000) !important;
 }
