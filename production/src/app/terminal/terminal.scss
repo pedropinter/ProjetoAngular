@@ -14,7 +14,6 @@
     font-size: 1.8em;
     font-weight: bold;
     color: var(--color-dark-blue-1000);
-    background-color: green;
 }
 
 .terminal-div {
@@ -91,7 +90,11 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-
+.production-item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .item-color {
     height: 2vw;
     width: 2vw;
@@ -126,6 +129,9 @@
 
     pad: 5%;
     gap: 5%;
+    img{
+        height: 120px;
+    }
 }
 
 .item-description {
